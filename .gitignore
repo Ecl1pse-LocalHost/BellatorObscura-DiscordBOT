@@ -1,0 +1,25 @@
+# Environment & Secrets (NEVER COMMIT THESE)
+.env
+.env.local
+*.env
+
+# Dependencies
+node_modules/
+
+# TypeScript Build Output
+dist/
+build/
+*.tsbuildinfo
+
+# Logs & System Files
+*.log
+
+# AI related
+.clinerules
+handoff.md
+Initial Promt.md
+RULES_SCREENING_IMPLEMENTATION.md
+RULES_SCREENING_SETUP.md
+
+# Other
+Start.bat

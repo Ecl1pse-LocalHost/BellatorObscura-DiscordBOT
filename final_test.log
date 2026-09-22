@@ -1,8 +1,0 @@
-npm notice run discord-bot@1.0.0 start
-npm notice run tsx src/index.ts
-✅ Logged in as Bellator Obscura#4145!
-Starting command deployment...
-Deploying commands to guild 1534043938615197706...
-✅ Successfully deployed commands to guild.
-(node:9704) Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
-(Use `node --trace-warnings ...` to show where the warning was created)
