@@ -25,6 +25,6 @@ COPY package*.json ./
 RUN npm ci --only=production
 
 # Copy compiled JavaScript output from builder stage (adjust 'dist' if your outDir is different)
-COPY --from=builder /app/dist ./dist
+COPY --from=builder /app/dist ./
 
 CMD ["node", "dist/index.js"]
