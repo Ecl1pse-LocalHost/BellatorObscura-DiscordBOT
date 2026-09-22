@@ -1,0 +1,13 @@
+npm notice run discord-bot@1.0.0 start
+npm notice run tsx src/index.ts
+✅ Logged in as Bellator Obscura#4145!
+Starting command deployment...
+Deploying commands to guild 1534043938615197706...
+✅ Successfully deployed commands to guild.
+🔄 Member updated: julianjarno07 (560966758668959903)
+   Pending status: true → false
+🎉 Member completed rules screening!
+✅ Found target role by ID: guest (1545906885318680656)
+🔄 Member updated: julianjarno07 (560966758668959903)
+   Pending status: false → false
+✅ Successfully assigned role guest to julianjarno07

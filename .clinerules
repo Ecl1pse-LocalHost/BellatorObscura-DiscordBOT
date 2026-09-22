@@ -1,0 +1,16 @@
+# ENVIRONMENT CONSTRAINTS
+- Operating System: Windows 11
+- Shell: Git Bash (POSIX / Bash syntax)
+- RULE: Standard Linux/Bash commands are FULLY SUPPORTED (`cat`, `grep`, `ls`, `export`, `find`, `&&` chaining).
+- RULE: Do NOT use PowerShell cmdlets or syntax (no `Get-Content`, `Get-ChildItem`, `$env:VAR`, or `Set-ExecutionPolicy`).
+- RULE: Use forward slashes (`/`) for paths (e.g., `./src/components/` or `/c/Users/...`).
+- RULE: The documentation for Discord.js is located in `node_modules/discord.js/typings` (use forward slashes for Git Bash compatibility).
+
+# ERROR RECOVERY PROTOCOL (ANTI-PANIC)
+- If a terminal command fails ONCE: Read the exact error message before attempting a fix.
+- If a terminal command fails TWICE: STOP immediately. Do NOT attempt to refactor source files to fix a shell error. Ask the user for guidance.
+- NEVER rewrite an entire file to fix a minor issue. Make small, targeted edits only.
+
+# WORKSPACE MEMORY
+- Refer to `handoff.md` for current project state and active goals.
+- Before completing a task, update `handoff.md` with what was changed and next steps.
